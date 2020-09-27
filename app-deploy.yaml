@@ -8,8 +8,7 @@ metadata:
     commit.stack.appsody.dev/contextDir: /incubator/nodejs
     commit.stack.appsody.dev/date: Thu May 14 09:37:35 2020 +0100
     commit.stack.appsody.dev/message: 'Merge pull request #340 from groeges/release-0.9-codewind'
-    description: This image contains the Kabanero development stack for the Nodejs
-      collection
+    description: This image contains the Kabanero development stack for the Nodejs collection
     distribution-scope: public
     help: For more information visit https://github.com/sclorg/s2i-nodejs-container
     image.opencontainers.org/created: "2020-09-27T20:51:33+09:00"
@@ -22,7 +21,7 @@ metadata:
     k8s.io/display-name: Node.js 12
     maintainer: SoftwareCollections.org <sclorg@redhat.com>
     name: kabanero/nodejs
-    openshift.io/expose-services: 8080:http
+    openshift.io/expose-services: 3000:http
     openshift.io/tags: builder,nodejs,nodejs12
     redhat.com/build-host: cpt-1004.osbs.prod.upshift.rdu2.redhat.com
     redhat.com/component: nodejs-12-container
