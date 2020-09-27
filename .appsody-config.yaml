@@ -1,0 +1,3 @@
+id: "20200927205452.47361700"
+project-name: patientui
+stack: docker.io/kabanero/nodejs:0.3
