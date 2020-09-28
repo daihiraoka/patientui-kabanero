@@ -5,13 +5,20 @@ metadata:
     architecture: x86_64
     authoritative-source-url: registry.access.redhat.com
     build-date: 2020-04-09T10:02:05.547594
+    commit.image.appsody.dev/date: Sun Sep 27 22:16:48 2020 +0900
+    commit.image.appsody.dev/message: Change login messages
     commit.stack.appsody.dev/contextDir: /incubator/nodejs
     commit.stack.appsody.dev/date: Thu May 14 09:37:35 2020 +0100
     commit.stack.appsody.dev/message: 'Merge pull request #340 from groeges/release-0.9-codewind'
-    description: This image contains the Kabanero development stack for the Nodejs collection
+    description: This image contains the Kabanero development stack for the Nodejs
+      collection
     distribution-scope: public
     help: For more information visit https://github.com/sclorg/s2i-nodejs-container
-    image.opencontainers.org/created: "2020-09-27T20:51:33+09:00"
+    image.opencontainers.org/created: "2020-09-28T20:15:39+09:00"
+    image.opencontainers.org/documentation: https://github.com/daihiraoka/patientui-kabanero
+    image.opencontainers.org/revision: ad76331ae7d5bd24b8440b107f01962077b8fc51
+    image.opencontainers.org/source: https://github.com/daihiraoka/patientui-kabanero/tree/master
+    image.opencontainers.org/url: https://github.com/daihiraoka/patientui-kabanero
     k8s.io/description: Node.js 12 available as container is a base platform for building
       and running various Node.js 12 applications and frameworks. Node.js is a platform
       built on Chrome's JavaScript runtime for easily building fast, scalable network
@@ -21,7 +28,7 @@ metadata:
     k8s.io/display-name: Node.js 12
     maintainer: SoftwareCollections.org <sclorg@redhat.com>
     name: kabanero/nodejs
-    openshift.io/expose-services: 3000:http
+    openshift.io/expose-services: 8080:http
     openshift.io/tags: builder,nodejs,nodejs12
     redhat.com/build-host: cpt-1004.osbs.prod.upshift.rdu2.redhat.com
     redhat.com/component: nodejs-12-container
